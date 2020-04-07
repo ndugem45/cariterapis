@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Cari Terapis</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="ip">cariterapis.000webhostapp.com</string>
+    <string name="lat">-7.567022</string>
+    <string name="lng">110.812762</string>
+    <string name="bantuan_2">Menu lokasi berisi lokasi-lokasi praktik terapis dan keterangan yang berupa jarak antar pengguna menuju lokasi praktik terapis.
+        \nPada menu lokasi pengguna dapat menghubungi lokasi praktik dokter dan melihat detail lokasi praktik pada map.</string>
+    <string name="bantuan_3">Menu spesialis digunakan untuk mencari nama terapis berdasarkan spesialis. Pengguna dapat memilih spesialis terapis untuk mengetahui daftar nama terapis berdasarkan spesialis yang dipilih.
+    \nPada menu spesilais terdapat pencarian untuk mencari spesialis yang di inginkan.</string>
+    <string name="bantuan_4">Menu daftar terapis berisi nama-nama terapis. Menu ini dapat digunakan untuk melakukan pencarian langsung nama terapis yang diinginkan oleh pengguna.</string>
+    <string name="bantuan_5">Pada menu detail terapis terdapat informasi berupa nama terapis serta spesialisasi nya, infromasi lokasi dan jadwal praktek, dan juga jarak lokasi praktek dengan pengguna. Disini pengguna juga dapat langsung menghubungi lokasi praktek dan juga melihat lokasi pada map.</string>
+    <string name="bantuan_6">Tampilan map lokasi praktik terapis, pada tampilan map pengguna dapat menelusuri lokasi praktik terapis dan juga dapat menghubungi lokasi praktek atau melihat petunjuk jalan menggunakan google maps</string>
+    <string name="bantuan_7">Pengguna dapat mencari rute ke tempat praktek dengan menggunakan google maps.</string>
+    <string name="descApp">Aplikasi ini dibuat untuk memudahkan pengguna mencari dan mendapatkan informasi mengenai terapis.
+        \nInformasi yang disertakan dalam aplikasi ini berupa lokasi praktik terapis, nama terapis, jadwal terapis, telepon tempat praktik.</string>
+</resources>

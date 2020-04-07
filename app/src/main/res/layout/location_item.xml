@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/locationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terapi panjang"
+        android:layout_marginRight="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+    />
+
+    <TextView
+        android:id="@+id/locationDistance"
+        android:layout_width="0dp"
+        android:layout_height="27dp"
+        android:gravity="center"
+        android:text="600KM"
+        android:textColor="#ffff"
+        android:background="@color/color3"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/locationName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/locationAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="Jalan andalas nomer 56 solo"
+        app:layout_constraintEnd_toStartOf="@+id/locationDistance"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationName"
+        android:textSize="13sp"/>
+
+    <View
+        android:id="@+id/bottomLine"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#e6e6e6"
+        android:visibility="visible"
+        android:layout_marginTop="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jadwal"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/jadwal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="setiap hari \n 12.00 - 13.00"
+        android:visibility="gone"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/locationDistance"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationAddress" />
+
+    <Button
+        android:id="@+id/waDetailBtn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/wa_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationDistance" />
+
+    <Button
+        android:id="@+id/mapDetailBtn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/maps"
+        app:layout_constraintEnd_toStartOf="@+id/waDetailBtn"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="@+id/locationDistance"
+        app:layout_constraintTop_toBottomOf="@+id/locationDistance" />
+
+</android.support.constraint.ConstraintLayout>
